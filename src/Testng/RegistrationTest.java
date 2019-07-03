@@ -16,6 +16,7 @@ public class RegistrationTest {
 		driver.get("http://newtours.demoaut.com/");
 
 		driver.findElement(By.linkText("REGISTER")).click();
+		
 
 		driver.findElement(By.name("firstName")).sendKeys("User1");
 
